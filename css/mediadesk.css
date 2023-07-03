@@ -133,7 +133,7 @@ main .section1 ul{
     margin-left: -10px;
     border-top: 3px solid rgb(255,111,0);
     color: white;
-    text-align: center;
+    text-align: left;
     font-size: 10px;
     font-family: 'Rubik',sans-serif;
     font-weight: 100;
@@ -273,42 +273,15 @@ main .section1 ul{
     background-color: #111111;
     width: 100%;
     height: 100px;
+    padding-top: 50px;
 
-}
-
-.conteudofinal>p:nth-child(1) {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 100;
-
-    margin-right: 20px;
-    padding-top: 20px;
-
-    color: white;
-    text-align: center;
-
-}
-
-.conteudofinal>p:nth-child(1) {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 100;
-
-    margin-right: 20px;
-    padding-top: 30px;
-
-    color: white;
-    text-align: center;
-
-}
-
-.conteudofinal ul li {
+}.conteudofinal ul li {
     display: inline-block;
+    border-right: 2px solid rgb(74, 74, 74);
 
 
-}
 
-.conteudofinal ul {
+}.conteudofinal ul {
     text-align: center;
     margin-top: 15px;
 
@@ -318,8 +291,18 @@ main .section1 ul{
     color: white;
     font-size: 12px;
     padding-right: 10px;
-    border-right: 2px solid rgb(74, 74, 74);
+    
+    
+}.conteudofinal p{
+
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 100;
+    margin-bottom: 20px;
 }
+
 
 .conteudofinal img {
     width: 50px;
@@ -329,6 +312,22 @@ main .section1 ul{
 
 
 
+}.conteudofinal img {
+    width: 20px;
+    filter: saturate(0);
+
+
+
+}.redes{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin-left: 500px;
+    margin-top: 20px;
+
+}.redes div{
+    margin-right: 5px;
+    
 }
 
 footer {
