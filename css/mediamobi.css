@@ -83,30 +83,7 @@
         text-decoration: none;
         color: rgb(255, 255, 255);
         font-size: 12px;
-    }main .section1  div{
-        display: flex;
-        flex-direction: row;
-        margin-top: 50px;
-        height: 80px;
-    }main .section1 div img{
-        width: 50px;
-        height:50px;
-        margin-left: 15px;
-        border-radius: 50px;
-        border: 2px solid rgb(255,111,0);
-        
-    }main .section1 div p{
-        margin-top: 10px;
-        padding-right: 30px;
-        padding-left: 5px;
-        border-top: 3px solid rgb(255,111,0);
-        color: white;
-        text-align: center;
-        font-size: 10px;
-        font-family: 'Rubik',sans-serif;
-        font-weight: 100;
     }
-
     /* Fim section 1 */
 
     /* section 2  */
@@ -121,6 +98,32 @@
         padding-top: 50px;
         padding-bottom: 50px;
 
+    }main .autor{
+        display: flex;
+        flex-direction: row;
+         margin-left: -20px;
+        margin-top: 50px;
+        width: 310px;
+        margin-bottom: 100px;
+        
+        
+    }main .autor img{
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        border: 2px solid rgb(255,111,0);
+        
+    }main .autor p{
+        margin-top: 10px;
+        padding-right: 30px;
+        margin-left: -30px;
+        border-top: 3px solid rgb(255,111,0);
+        color: white;
+        text-align: center;
+        font-size: 10px;
+        font-family: 'Rubik',sans-serif;
+        font-weight: 100;
     }
 
     .conteudo p {
@@ -129,7 +132,7 @@
         padding-left: 16px;
         padding-right: 16px;
         line-height: 25px;
-        font-family: 'Nunito',sans-serif;
+        font-family: 'Nunito',sans;
 
     }
 
@@ -162,7 +165,6 @@
     .conteudo2 img {
         width: 120px;
         display: flex;
-        margin: auto;
         padding-bottom: 40px;
 
     }
@@ -237,6 +239,7 @@
     .conteudo2>img {
         width: 200px;
         padding-top: 100px;
+        margin: auto;
     }
 
     .conteudofinal {
@@ -283,6 +286,8 @@
         text-align: center;
         margin-top: 15px;
 
+    }.conteudofinal p{
+        color: white;
     }
 
     .conteudofinal a {
@@ -310,37 +315,5 @@
         text-align: center;
     }
 
-    @media screen and (orientation:landscape) {
-        .presets {
-            height: 300px;
-        }
-
-        .presets h1 {
-            font-family: 'Poppins', sans-serif;
-            font-size: 18px;
-            font-weight: 100;
-
-            margin-right: 20px;
-            padding-top: 50px;
-
-            color: white;
-            text-align: center;
-
-        }
-
-        .temporadas>div {
-            align-items: center;
-            padding-left: 5px;
-            padding-right: 5px;
-            border: 2px solid red;
-        }
-
-        .conteudofinal img {
-            position: relative;
-
-
-            left: 500px;
-        }
-
-    }
+   
 }
