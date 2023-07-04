@@ -191,7 +191,16 @@
         padding: 50px;
         font-size: 10px;
         text-align: center;
+    }@media screen and (orientation:landscape) {
+
+    .container{
+        display: flex;
+        margin: auto;
     }
+    
+}
+    }
+
 
     }
 
